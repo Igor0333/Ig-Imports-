@@ -1,0 +1,238 @@
+/* =========================
+   BASE E BODY
+   ========================= */
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* =========================
+   CONTAINER PRINCIPAL
+   ========================= */
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* =========================
+   CABEÇALHO
+   ========================= */
+header {
+  position: relative;
+}
+
+/* =========================
+   LOGO
+   ========================= */
+#LogoIndex {
+  width: 15%;
+  height: 75px;
+}
+
+/* =========================
+   SACOLA DE COMPRAS
+   ========================= */
+.sacola {
+  background-image: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 120px;
+  padding-top: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* =========================
+   MENU DE OPÇÕES
+   ========================= */
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-opcoes ul {
+  font-size: 15px;
+}
+
+.menu-opcoes a {
+  color: #64ceff;
+  text-decoration: none;
+  background-color: rgb(6, 3, 173);
+  text-shadow: 2px 2px 2px #4400ff;
+  box-shadow: #4400ff 3px 3px 5px;
+  padding: 3px;
+  border-radius: 12px;
+}
+
+.menu-opcoes a:hover {
+  background-color: #000547;
+  color: #00f7ff;
+  border-radius: 12px;
+  box-shadow: #4400ff 3px 3px 5px;
+  padding: 6px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* =========================
+   LISTAS INLINE
+   ========================= */
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu-departamentos {
+  background-color: seashell;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 240px;
+  margin-top: 0px;
+}
+
+.busca h2, .menu-departamentos h2 {
+  background-color: rgb(146, 143, 143);
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 240px;
+  margin-top: 25px;
+}
+
+.menu-departamentos li {
+  margin: 3px;
+  display: inline-block;
+  width: 100%;
+}
+
+.menu-departamentos a {
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+
+.busca,
+.menu-departamentos	{
+float:	left;
+position: relative;
+top: 25px;
+}
+
+.menu-departamentos	{
+clear:	left;
+}
+
+.busca	input[type=search]	{
+width:	170px;
+}
+
+figure img{
+  width: 70%;
+  height: 150%;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.painel	{
+ margin:	10px	0;
+ padding:	10px;
+ width:	445px;
+ height: 350px
+ }
+
+ .novidades	{
+ float:	right;
+ position: absolute;
+ right: 420px;
+ }
+
+ .mais-vendidos	{
+ float:	left;
+ position: relative;
+ left: -200px;
+ }
+
+ .painel	li	{
+	display:	inline-block;
+	vertical-align:	top;
+	width:	140px;
+	margin:	2px;
+	padding-bottom:	10px;
+	}
+
+.painel	h2	{
+	font-size:	24px;
+	font-weight:	bold;
+	text-transform:	uppercase;
+	margin-bottom:	10px;
+	}
+.painel	a	{
+	color:	#333;
+	font-size:	14px;
+	text-align:	center;
+	text-decoration:	none;
+	}
+.novidades	{
+	background-color:	#575757;
+	}
+
+.mais-vendidos	{
+	background-color:	#c9c9c9;
+	}
+
+ footer	{
+			background-image:	url(../img/fundo-rodape.png);
+      clear: both;
+	}
+
+ .social	a	{
+	height:	32px;
+	width:	32px;
+	display:	block;
+	text-indent:	-9999px;		
+	}
+
+	.social	a[href*="facebook.com"]	{
+			background-image:	url(../img/facebook.png);
+	}
+
+	.social	a[href*="twitter.com"]	{
+			background-image:	url(../img/twitter.png);
+	}
+
+	.social	a[href*="plus.google.com"]	{
+			background-image:	url(../img/googleplus.png);
+	}
+
+  footer	{
+		padding:	20px	0;
+	}
+	footer{
+		position:	relative;
+	}
+	.social	{
+		position:	absolute;
+		top:	12px;
+		right:	22%;
+	}
+
+  .social	li	{
+		float:	left;
+		margin-left:	25px;
+	}
+
+  #LogoIg {
+    margin: 5px;
+    position: relative;
+    left: 30%;
+    width: 100px;
+    height: 60px;
+  }
+
+
+  .container-footer{
+    width: 100%;
+  }
